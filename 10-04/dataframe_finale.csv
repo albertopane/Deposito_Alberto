@@ -1,0 +1,31 @@
+Nome,Età,Città,Salario,Categoria Età
+Alice,5.0,Roma,2943,Giovane
+Bob,7.586206896551724,Milano,7884,Giovane
+Carla,10.172413793103448,Napoli,4987,Giovane
+David,12.758620689655173,Torino,3524,Giovane
+Eva,15.344827586206897,Genova,3769,Giovane
+Francesca,17.93103448275862,Bologna,4077,Giovane
+Giovanni,20.517241379310345,Firenze,1268,Adulto
+Hanna,23.10344827586207,Palermo,2596,Adulto
+Igor,25.689655172413794,Catania,2013,Adulto
+Luca,28.275862068965516,Venezia,1551,Adulto
+Marta,30.862068965517242,Verona,5513,Adulto
+Nina,33.44827586206897,Bari,2070,Adulto
+Omar,36.03448275862069,Reggio Calabria,5652,Adulto
+Paola,38.62068965517241,Modena,3808,Adulto
+Quirino,41.20689655172414,Ancona,2599,Adulto
+Rita,43.793103448275865,Lecce,4022,Adulto
+Stefano,46.37931034482759,Trieste,4431,Adulto
+Tiziana,48.96551724137931,Pescara,7490,Adulto
+Ugo,51.55172413793103,Salerno,7660,Adulto
+Vera,54.13793103448276,Como,2463,Adulto
+Walter,56.724137931034484,Cagliari,5506,Adulto
+Xenia,59.310344827586206,Sassari,3073,Adulto
+Yara,61.896551724137936,Aosta,1456,Adulto
+Zoe,64.48275862068965,Rimini,3924,Adulto
+Andrea,67.06896551724138,Vibo Valentia,6392,Anziano
+Bianca,69.65517241379311,La Spezia,2677,Anziano
+Claudio,72.24137931034483,Siena,4413,Anziano
+Daniele,74.82758620689656,Parma,1512,Anziano
+Elena,77.41379310344828,Arezzo,6153,Anziano
+Fabio,80.0,Ravenna,1621,Anziano

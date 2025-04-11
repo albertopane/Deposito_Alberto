@@ -1,0 +1,11 @@
+Prodotto,Quantità,Prezzo Unitario,Città,Totale Vendite
+Prodotto B,12.0,30.0,Torino,360.0
+Prodotto C,4.0,50.0,Roma,200.0
+Prodotto A,11.0,15.0,Napoli,165.0
+Prodotto A,10.0,15.0,Roma,150.0
+Prodotto B,5.0,30.0,Milano,150.0
+Prodotto C,3.0,50.0,Roma,150.0
+Prodotto A,9.0,15.0,Napoli,135.0
+Prodotto A,7.0,15.0,Napoli,105.0
+Prodotto B,8.0,,Milano,
+Prodotto C,,50.0,Roma,
