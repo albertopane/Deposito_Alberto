@@ -1,0 +1,41 @@
+-- es1 
+SELECT Prodotti.nome, Prodotti.categoria, Prodotti.marca, Prodotti.prezzo, Fornitori.nome
+FROM Prodotti
+INNER JOIN Fornitori
+ON Prodotti.fornitore_id = Fornitori.id;
+
+--es2
+SELECT Prodotti.nome, Prodotti.categoria, Prodotti.marca, Prodotti.prezzo, Fornitori.paese
+FROM Prodotti
+INNER JOIN Fornitori
+ON Prodotti.fornitore_id = Fornitori.id
+WHERE prezzo > 300;
+
+--es3
+SELECT Fornitori.nome, COUNT(Prodotti.id) AS ProdottiPerFornitore
+FROM Fornitori
+INNER JOIN Prodotti
+ON Prodotti.fornitore_id = Fornitori.id
+GROUP BY Fornitori.id;
+
+--es4
+SELECT *
+FROM Prodotti
+ORDER BY prezzo DESC;
+
+--es5
+SELECT Prodotti.nome, Prodotti.categoria, Prodotti.marca, Prodotti.prezzo, Fornitori.paese
+FROM Prodotti
+INNER JOIN Fornitori
+ON Prodotti.fornitore_id = Fornitori.id
+WHERE paese = 'Italia';
+
+--es6
+SELECT Prodotti.nome, Prodotti.prezzo
+FROM Prodotti
+WHERE categoria = 'Informatica';
+
+--es7
+SELECT AVG(prezzo) AS PrezzoMedioTechGlobal
+FROM Prodotti
+WHERE fornitore_id = 1;
